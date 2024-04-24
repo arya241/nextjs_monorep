@@ -11,13 +11,14 @@
     "@module-federation/nextjs-mf": "^8.3.9",
     "concurrently": "^8.2.2",
     "next": "14.2.2",
-    "react": "^18"
+    "react": "^18",
+    "webpack": "^5.91.0"
   },
   "scripts": {
     "start": "concurrently \"npm --prefix apps/app1 run dev\" \"npm --prefix apps/app2 run dev\" \"npm --prefix apps/host-app run dev\"",
-    "start:apps/app1/my-app1": "cd apps/app1 && npm run dev",
-    "start:apps/app2/my-app2": "cd apps/app2 && npm run dev",
-    "start:apps/app3/my-app3": "cd apps/host-app && npm run dev"
+    "start:apps/app1": "cd apps/app1 && npm run dev",
+    "start:apps/app2": "cd apps/app2 && npm run dev",
+    "start:apps/host-app": "cd apps/host-app && npm run dev"
   },
   "keywords": [],
   "author": "",
