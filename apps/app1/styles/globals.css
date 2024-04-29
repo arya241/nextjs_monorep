@@ -25,6 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.theme-button {
+  background-color:#b9e98b;
+  color: var(--onPrimaryBg);
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #be1e1e;
+  border-radius: 5px;
+}
+
 
 @layer utilities {
   .text-balance {
